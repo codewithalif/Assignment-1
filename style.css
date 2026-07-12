@@ -148,3 +148,185 @@ ul li a {
     padding-left: 20px;
     line-height: 1.6;
 }
+
+/* Pricing section styles */
+
+.pricing-container{
+    display: flex;
+    gap: 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    flex: 1;
+    max-width: 360px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pricing-card {
+    display: flex;
+    /* align-items: center; */
+    text-align: left;
+    flex-direction: column;
+    /* list-style: none; */
+    padding-left: 32px;
+    gap: 5px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    width: 370px;
+    height: 440px;
+    
+}
+
+.pricing-card ul{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    gap: 16px;
+    text-align: left;
+}
+
+.pricing-card li{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 14px;
+}
+.pricing-card li::before{
+    content: "•";
+    color: #2563EB;
+    margin-right: 8px;
+    display: inline-block;
+    flex-shrink: 0;
+    width: 16px;
+}
+
+.main-price{
+    margin-top: 130px ;
+   margin-left: 230px;
+}
+
+.divider{
+    border-bottom: 1px solid #e2e8f0;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.pro-divider{
+    border-bottom: 1px solid rgba(212, 210, 210, 0.103);
+    width: 100%;
+    margin: 20px 0;
+}
+.secure-h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.early{
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.Pro-card{
+    background-color:#0D1B2A ;
+}
+
+.Pro-card .pro-card-team{
+    color: #93C5FD;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.Pro-card .pro-card-price{
+    color: white;
+    font-size: 44px;
+}
+
+.pricing-card .pro-card-person{
+    color: #575757;
+    font-size: 13px;
+}
+
+.pro-card-btn{
+    background-color: #1D4ED8;
+    color: white;
+    margin-top: 10px;
+    width:300px ;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+.pro-card-btn:hover{
+    cursor: pointer;
+}
+
+.Pro-card ul li{
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 14px;
+    font-weight:100;
+}
+
+.pricing-card ul li{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.card-team{
+    font-size: 13px;
+    color: #575757;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.card-price{
+    font-size: 44px;
+}
+
+.card-person{
+    color: #575757;
+    font-size:13px ;
+    font-weight: normal;
+}
+
+.standard-btn{
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+    background-color: white;
+    width:300px ;
+    height:45px ;       
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.standard-btn:hover{
+    cursor: pointer;
+}
+
+.high-button{
+    font-size: 14px;
+    width:300px ;
+    height:45px ;
+    border: 1px solid black;
+    border-radius: 10px ;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.high-button:hover{
+    cursor: pointer;
+}
