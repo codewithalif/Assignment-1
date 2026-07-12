@@ -330,3 +330,147 @@ ul li a {
 .high-button:hover{
     cursor: pointer;
 }
+
+
+/* Generating a reavant section with AI (Styles) */
+
+.contact-schedule-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.schedule-column {
+    flex: 1;
+    max-width: 55%;
+}
+
+.speakers-title {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.speakers-subtitle {
+    font-size: 1rem;
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.speaker-schedule-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
+}
+
+.speaker-avatar-wrapper {
+    flex-shrink: 0;
+}
+
+.speaker-avatar-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2563eb;
+}
+
+.speaker-info-block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.speaker-title-name {
+    font-size: 1.2rem;
+    color: #0f172a;
+}
+
+.speaker-time-slot {
+    font-size: 0.95rem;
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.form-column {
+    flex: 1;
+    max-width: 40%;
+    margin-top: 150px;
+}
+
+.contact-form-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 8px;
+}
+
+.form-input, 
+.form-textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #1e293b;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+.form-input:focus, 
+.form-textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.form-submit-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.form-submit-btn:hover {
+    background-color: #1d4ed8;
+}
+
