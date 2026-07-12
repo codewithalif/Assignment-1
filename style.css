@@ -10,15 +10,7 @@
     color: #575757;
 }
 
-/* Header section style */
 
-
-.navbar{
-    display: flex;
-    align-items: center;
-    margin: 80px ; 
-    font-family: "Inter", sans-serif;
-}
 .btn-primary{
     background-color:#1D4ED8;
     font-size: 18px;
@@ -32,6 +24,16 @@
 .btn-primary:hover{
     cursor: pointer;
 }
+/* Header section style */
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 80px ; 
+    font-family: "Inter", sans-serif;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
