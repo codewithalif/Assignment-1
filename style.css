@@ -100,3 +100,51 @@ ul li a {
     font-style: italic;
     color: white;
 }
+
+/* Meet the speakers section styles */
+
+.speaker-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.speaker-card{
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+    /* width: 640px; */
+    height: 500px;
+}
+.speaker-card img{
+    width: 100%;
+}
+
+.speaker-card span{
+    color: #2563EB;
+}
+
+.speaker-card h4{
+    font-size: 20px;
+}
+
+.speaker-card  h4 p{
+    padding-bottom: 200px;
+}
+
+.speaker-section h2{
+    font-size: 56px;
+    text-align: center;
+    padding-bottom:50px ;
+}
+
+.speaker-section{
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.card-details{
+    padding-left: 20px;
+    line-height: 1.6;
+}
