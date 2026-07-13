@@ -57,7 +57,7 @@ ul li a {
 /* Hero section styles */
 
 .hero-section{
-    background-image: url(./assets/banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
